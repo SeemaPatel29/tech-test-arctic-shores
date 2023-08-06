@@ -1,0 +1,522 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5766316900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user should able to able to purchase",
+        "description": "",
+        "id": "complete-purchase-end-to-end-journey;user-should-able-to-able-to-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 834004600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205577300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243717700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126946700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167631600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on product page",
+            "match": {
+              "location": "ProductSteps.iAmOnProductPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110753000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on sauce labs backpack",
+            "match": {
+              "location": "ProductSteps.iClickOnSauceLabsBackpack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98015900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add to cart",
+            "match": {
+              "location": "ProductSteps.iAddToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104435500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on shopping cart",
+            "match": {
+              "location": "ProductSteps.iClickOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97911600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on checkout",
+            "match": {
+              "location": "ProductSteps.iClickOnCheckout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129423100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Frist Name",
+            "match": {
+              "location": "ProductSteps.iEnterFristName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125187500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter Last name",
+            "match": {
+              "location": "ProductSteps.iEnterLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128710800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Zip code",
+            "match": {
+              "location": "ProductSteps.iEnterZipCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102578700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on continue button",
+            "match": {
+              "location": "ProductSteps.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93566100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on finish button",
+            "match": {
+              "location": "ProductSteps.iClickOnFinishButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50422400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify Thank you for your order message",
+            "match": {
+              "location": "ProductSteps.iVerifyThankYouForYourOrderMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "complete purchase end to end journey",
+    "description": "",
+    "id": "complete-purchase-end-to-end-journey",
+    "keyword": "Feature",
+    "uri": "EndToEnd.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2345264200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 724744500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237847800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137770100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154278900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56458500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the products text",
+            "match": {
+              "location": "LoginSteps.iVerifyTheProductsText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2447112800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should not login with Invalid credentials",
+        "description": "",
+        "id": "login-test;user-should-not-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 808803800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181077400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Invalid username",
+            "match": {
+              "location": "LoginSteps.iEnterInvalidUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133699000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Invalid password",
+            "match": {
+              "location": "LoginSteps.iEnterInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116874400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is not able to login",
+            "match": {
+              "location": "LoginSteps.userIsNotAbleToLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2358151400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should verify the error message diplayed for invalid login attemps",
+        "description": "",
+        "id": "login-test;user-should-verify-the-error-message-diplayed-for-invalid-login-attemps",
+        "after": [
+          {
+            "result": {
+              "duration": 722948400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186804700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter Invalid username",
+            "match": {
+              "location": "LoginSteps.iEnterInvalidUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142360800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter Invalid password",
+            "match": {
+              "location": "LoginSteps.iEnterInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109266400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46140600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify the error message displayed on the screen",
+            "match": {
+              "location": "LoginSteps.iVerifyTheErrorMessageDisplayedOnTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into saucedemo website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
